@@ -1,0 +1,13 @@
+---
+name: redis-lite
+description: >
+  <p>How would you find vulnerabilities when the source code is large?</p>
+  <code>redis-cli -h {host}</code><br>
+flag: "zer0pts{1nf1n1t3_h34p_0v3rfl0w_PWNed_by_4n0th3r_thr34d}"
+author: ptr-yudai
+host: pwn1.ctf.zer0pts.com
+port: 6379
+tags:
+  - pwn
+  - lunatic
+is_survey: false

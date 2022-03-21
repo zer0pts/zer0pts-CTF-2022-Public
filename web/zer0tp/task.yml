@@ -1,0 +1,13 @@
+---
+name: Zer0TP
+description: >
+  <p>Zer0TP makes it super easy for service developers to implement an authentication scheme!</p>
+  <p><a href="http://{host}:{port}" target="_blank">Demo service</a></p>
+flag: "zer0pts{U_s4v3d_1337_USD_:yay:}"
+author: ptr-yudai, keymoon
+host: demoapp.ctf.zer0pts.com
+port: 8077
+tags:
+  - web
+  - misc
+is_survey: false

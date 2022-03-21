@@ -1,0 +1,13 @@
+---
+name: Modern Rome
+description: >
+  <p>Ancient numeric system still used in the modern world.</p>
+  <code>nc {host} {port}</code>
+flag: "zer0pts{R0me_w1ll_3x1st_a5_1on9_4s_th3_Col1s3um_d0es}"
+author: keymoon
+host: pwn1.ctf.zer0pts.com
+port: 9000
+tags:
+  - warmup
+  - pwn
+is_survey: false

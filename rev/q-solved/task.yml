@@ -1,0 +1,10 @@
+---
+name: q-solved
+description: >
+  <p>I copied the solver of a reversing task from the future. But it doesn't show the flag forever :thinking:</p>
+flag: "zer0pts{FLAG_by_Gr0v3r's_4lg0r1thm}"
+author: ptr-yudai
+tags:
+  - rev
+  - quantum
+is_survey: false

@@ -1,0 +1,12 @@
+---
+name: MemSafeD
+description: >
+  <p>D language is similar to C in its syntax but much more secure than C.</p>
+  <code>nc {host} {port}</code>
+flag: "zer0pts{1.Use_@trusted_escapes/2.Use_boundscheck=safeonly/3.Trust_GC}"
+author: ptr-yudai
+host: pwn1.ctf.zer0pts.com
+port: 9002
+tags:
+  - pwn
+is_survey: false

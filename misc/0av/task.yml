@@ -1,0 +1,12 @@
+---
+name: 0AV
+description: >
+  <p>This anti-virus prevents me from reading the flag. Can you read <code>/playground/flag.txt</code> anyhow?</p>
+  <code>nc {host} {port}</code>
+flag: "zer0pts{FANOTIFY_d03snt_w0rk_b3tw33n_d1ff3r3nt_n4m3sp4c3s...}"
+author: ptr-yudai
+host: pwn3.ctf.zer0pts.com
+port: 10003
+tags:
+  - misc
+is_survey: false

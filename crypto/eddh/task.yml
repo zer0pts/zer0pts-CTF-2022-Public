@@ -1,0 +1,12 @@
+---
+name: EDDH
+description: >
+  <p>I heard about that EdDSA is more secure than ordinal ECDSA. So ECDH on Edwards Curve too?</p>
+  <code>nc {host} {port}</code>
+flag: "zer0pts{edwards_what_the_hell_is_this}"
+author: theoremoon
+host: crypto.ctf.zer0pts.com
+port: 10929
+tags:
+  - crypto
+is_survey: false

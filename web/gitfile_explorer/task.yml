@@ -1,0 +1,13 @@
+---
+name: "GitFile Explorer"
+description: >
+  <p>Read <code>/flag.txt</code> on the server.</p>
+  <p><a href="http://{host}:{port}/" target="_blank">Challenge</a></p>
+flag: "zer0pts{foo/bar/../../../../../directory/traversal}"
+author: ptr-yudai
+host: gitfile.ctf.zer0pts.com
+port: 8001
+tags:
+  - web
+  - warmup
+is_survey: false

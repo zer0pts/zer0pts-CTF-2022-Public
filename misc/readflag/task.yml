@@ -1,0 +1,12 @@
+---
+name: readflag
+description: >
+  <p>All you need is strings.</p>
+  <code>nc {host} {port}</code>
+flag: "zer0pts{Dear diary... Wait, are your reading this? Stop!}"
+author: nyanko
+host: misc.ctf.zer0pts.com
+port: 10002
+tags:
+  - misc
+is_survey: false

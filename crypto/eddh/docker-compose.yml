@@ -1,0 +1,7 @@
+version: '3'
+services:
+  eddh:
+    build: ./
+    ports:
+      - 10929:9999
+    restart: on-failure:10

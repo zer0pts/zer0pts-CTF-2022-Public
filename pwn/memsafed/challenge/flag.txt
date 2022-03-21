@@ -1,0 +1,1 @@
+zer0pts{1.Use_@trusted_escapes/2.Use_boundscheck=safeonly/3.Trust_GC}

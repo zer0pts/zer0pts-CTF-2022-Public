@@ -1,0 +1,12 @@
+---
+name: kRCE
+description: >
+  <p>Full chain...?</p>
+  <code>nc {host} {port}</code>
+flag: "zer0pts{K3rn3l-l4nd_3xpl01t_b3f0r3_us3r-l4nd_XpL0i7!?}"
+author: ptr-yudai
+host: pwn3.ctf.zer0pts.com
+port: 9009
+tags:
+  - pwn
+is_survey: false

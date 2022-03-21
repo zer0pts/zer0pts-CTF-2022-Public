@@ -1,0 +1,12 @@
+---
+name: "kvstore"
+description: >
+  <p>Do you want a heap exploitation challenge? This is the one.</p>
+  <code>nc {host} {port}</code>
+flag: "zer0pts{fclose-fwrite-fclose_2_byp4ss_d0ubl3_fr33_d3t3ct10n}"
+author: ptr-yudai
+host: pwn1.ctf.zer0pts.com
+port: 9005
+tags:
+  - pwn
+is_survey: false

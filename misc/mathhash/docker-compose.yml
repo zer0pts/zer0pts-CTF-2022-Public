@@ -1,0 +1,9 @@
+version: '3'
+services:
+  mathhash:
+    build: ./
+    restart: on-failure:10
+    ports:
+      - 10001:9999
+    environment:
+      - FLAG=zer0pts{s1gn+|3xp^|fr4c.}

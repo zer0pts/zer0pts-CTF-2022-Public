@@ -1,0 +1,12 @@
+---
+name: OK
+description: >
+  <p>GOLDEN SUN provides you a key and SILVER MOON provides you a ciphertext.</p>
+  <code>nc {host} {port}</code>
+flag: "zer0pts{hav3_y0u_unwittin91y_acquir3d_th3_k3y_t0_th3_d00r_t0_th3_N3w_W0r1d?}"
+author: theoremoon, keymoon
+host: crypto.ctf.zer0pts.com
+port: 10333
+tags:
+  - crypto
+is_survey: false

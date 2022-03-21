@@ -1,0 +1,7 @@
+version: '3'
+services:
+  ok:
+    build: ./
+    ports:
+      - 10333:9999
+    restart: on-failure:10

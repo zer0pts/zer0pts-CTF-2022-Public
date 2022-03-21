@@ -1,0 +1,13 @@
+---
+name: 'miniblog#'
+description: >
+  <p>Backup is important! But not only backup is important...</p>
+  <p><a href="http://{host}:{port}" target="_blank">Challenge</a></p>
+  <p>* The password of the distributed file is the flag of <code>miniblog++</code> challenge.</p>
+flag: "zer0pts{you_know_that_zip_is_always_your_friend}"
+author: ptr-yudai
+host: miniblog2.ctf.zer0pts.com
+port: 8018
+tags:
+  - web
+is_survey: false

@@ -1,0 +1,10 @@
+---
+name: service
+description: >
+  <p>service charge</p>
+flag: "zer0pts{m0d1fy1ng_PE_1mp0rts_1s_4n_34sy_0bfusc4t10n}"
+author: ptr-yudai
+tags:
+  - rev
+  - warmup
+is_survey: false

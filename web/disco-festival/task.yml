@@ -1,0 +1,13 @@
+---
+name: Disco Festival
+description: >
+  <p>Getting bored of partying? Let's dance at the festival!</p>
+  <p><a href="http://{host}:{port}" target="_blank">Challenge</a></p>
+  <p>* The password of the distributed file is the flag of <code>Disco Party</code> challenge.</p>
+flag: "zer0pts{st4y_tun3d_f0r_th3_d1sc0_m4squr4d3!(n0t_r3a11y)}"
+author: keymoon
+host: festival.ctf.zer0pts.com
+port: 8017
+tags:
+  - web
+is_survey: false

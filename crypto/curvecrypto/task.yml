@@ -1,0 +1,9 @@
+---
+name: CurveCrypto
+description: >
+  <p>EllipticCurve can be adaptive to encryption.</p>
+flag: "zer0pts{th3_g00d_3ncrypti0n_c0m3s_fr0m_th3_g00d_curv3}"
+author: theoremoon
+tags:
+  - crypto
+is_survey: false

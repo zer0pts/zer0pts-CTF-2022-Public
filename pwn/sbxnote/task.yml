@@ -1,0 +1,13 @@
+---
+name: sbxnote
+description: >
+  <p>Even a simple note is sandboxed in 2022. What a hard world to live in!</p>
+  <code>nc {host} {port}</code><br>
+  <small>* 1 connection per source</small>
+flag: "zer0pts{s0m3t1m3s_ch1Ldr3n_c4n_c0ntr0l_p4r3nts}"
+author: ptr-yudai
+host: pwn2.ctf.zer0pts.com
+port: 9004
+tags:
+  - pwn
+is_survey: false

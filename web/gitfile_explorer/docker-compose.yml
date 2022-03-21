@@ -1,0 +1,9 @@
+version: '3'
+services:
+  gitfile:
+    build: .
+    working_dir: /var/www/html
+    container_name: gitfile
+    ports:
+      - "8001:80"
+    restart: always

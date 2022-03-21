@@ -1,0 +1,12 @@
+---
+name: MathHash
+description: >
+  <p>I invented a very fast yet secure hash algorithm!</p>
+  <code>nc {host} {port}</code>
+flag: "zer0pts{s1gn+|3xp^|fr4c.}"
+author: ptr-yudai
+host: misc.ctf.zer0pts.com
+port: 10001
+tags:
+  - misc
+is_survey: false

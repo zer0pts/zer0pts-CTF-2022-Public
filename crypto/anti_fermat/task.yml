@@ -1,0 +1,10 @@
+---
+name: Anti-Fermat
+description: >
+  <p>I invented Anti-Fermat Key Generation for RSA cipher since I'm scared of the <a href="https://en.wikipedia.org/wiki/Fermat's_factorization_method" target="_blank">Fermat's Factorization Method</a>.</p>
+flag: "zer0pts{F3rm4t,y0ur_m3th0d_n0_l0ng3r_w0rks.y0u_4r3_f1r3d}"
+author: ptr-yudai
+tags:
+  - crypto
+  - warmup
+is_survey: false

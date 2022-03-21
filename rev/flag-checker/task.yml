@@ -1,0 +1,9 @@
+---
+name: Flag Checker
+description: >
+  <p>Find the flag.</p>
+flag: "zer0pts{me$s4g3_p4$$1ng_thru|p1pez_4r3_gr347!83157e16e25aa73f8a1fa1af06ac897a0f47d5be53ebb601953a43b6b3b4ca49}"
+author: x0r19x91
+tags:
+  - rev
+is_survey: false

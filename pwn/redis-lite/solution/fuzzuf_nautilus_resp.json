@@ -1,0 +1,48 @@
+[
+    ["REQUEST", "{REQUEST}{REQUEST}"],
+    ["REQUEST", ["{Q_COMMAND}", "{Q_ECHO}", "{Q_EXISTS}", "{Q_FLUSHALL}",
+                 "{Q_SET}", "{Q_MSET}", "{Q_GET}", "{Q_MGET}", "{Q_DEL}",
+                 "{Q_TYPE}", "{Q_COPY}", "{Q_RENAME}"]],
+
+    ["Q_COMMAND", ["*1\r\n$7\r\nCOMMAND\r\n",
+                   "*2\r\n$7\r\nCOMMAND\r\n$5\r\nCOUNT\r\n",
+                   "*2\r\n$7\r\nCOMMAND\r\n{OBJECT}"]],
+    ["Q_ECHO", "*2\r\n$4\r\nECHO\r\n{OBJECT}"],
+    ["Q_TYPE", "*2\r\n$4\r\nTYPE\r\n{OBJECT}"],
+    ["Q_FLUSHALL", "*1\r\n$8\r\nFLUSHALL\r\n"],
+    ["Q_EXISTS", "*2\r\n$6\r\nEXISTS\r\n{OBJECT}"],
+    ["Q_GET", "*2\r\n$3\r\nGET\r\n{OBJECT}"],
+    ["Q_MGET", ["*2\r\n$4\r\nMGET\r\n{OBJECT}",
+                "*3\r\n$4\r\nMGET\r\n{OBJECT}{OBJECT}",
+                "*4\r\n$4\r\nMGET\r\n{OBJECT}{OBJECT}{OBJECT}"]],
+    ["Q_SET", ["*3\r\n$3\r\nSET\r\n{OBJECT}{OBJECT}",
+               "*5\r\n$3\r\nSET\r\n{OBJECT}{OBJECT}$2\r\nEX\r\n{INTEGER}",
+               "*5\r\n$3\r\nSET\r\n{OBJECT}{OBJECT}$2\r\nPX\r\n{INTEGER}",
+               "*5\r\n$3\r\nSET\r\n{OBJECT}{OBJECT}$2\r\n{OBJECT}{OBJECT}"]],
+    ["Q_MSET", ["*3\r\n$4\r\nMSET\r\n{OBJECT}{OBJECT}",
+                "*5\r\n$4\r\nMSET\r\n{OBJECT}{OBJECT}{OBJECT}{OBJECT}",
+                "*7\r\n$4\r\nMSET\r\n{OBJECT}{OBJECT}{OBJECT}{OBJECT}{OBJECT}{OBJECT}"]],
+    ["Q_DEL", ["*2\r\n$3\r\nDEL\r\n{OBJECT}",
+               "*3\r\n$3\r\nDEL\r\n{OBJECT}{OBJECT}",
+               "*4\r\n$3\r\nDEL\r\n{OBJECT}{OBJECT}{OBJECT}"]],
+    ["Q_COPY", "*3\r\n$4\r\nCOPY\r\n{OBJECT}{OBJECT}"],
+    ["Q_RENAME", "*3\r\n$6\r\nRENAME\r\n{OBJECT}{OBJECT}"],
+
+    ["OBJECT", ["{INTEGER}", "{BULK}", "{MESSAGE}", "{ERROR}", "{ARRAY}"]],
+
+    ["ERROR", "-{STR}\r\n"],
+    ["MESSAGE", "+{STR}\r\n"],
+    ["INTEGER", ":{NUM}\r\n"],
+    ["BULK", ["${NUM}\r\n{STR}\r\n", "$0\r\n\r\n", "$-1\r\n"]],
+    ["ARRAY", ["*0\r\n",
+               "*1\r\n{OBJECT}",
+               "*2\r\n{OBJECT}{OBJECT}",
+               "*3\r\n{OBJECT}{OBJECT}{OBJECT}"
+              ]],
+
+    ["STR", ["{CHAR}", "{CHAR}{STR}"]],
+    ["CHAR", ["A", "B", "C"]],
+    ["NUM", ["{NUMBER}", "-{NUMBER}"]],
+    ["NUMBER", ["{DIGIT}", "{DIGIT}{NUMBER}"]],
+    ["DIGIT", ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]]
+]

@@ -1,0 +1,12 @@
+---
+name: accountant
+description: >
+  <p>Christian Wolff is an accountant.</p>
+  <code>nc {host} {port}</code>
+flag: "zer0pts{y0u_4r3_4_c3rt1f13d_publ1c_4cc0unt4nt_if_U_R_r34d1ng_th1s}"
+author: ptr-yudai
+host: pwn1.ctf.zer0pts.com
+port: 9001
+tags:
+  - pwn
+is_survey: false

@@ -1,0 +1,12 @@
+---
+name: Disco Party
+description: >
+  <p>It's party time right now, so could you refrain from discussing any complicated matters?</p>
+  <p><a href="http://{host}:{port}" target="_blank">Challenge</a></p>
+flag: "zer0pts{4h_p4rad1s3_l05t_6b4f6fbf5ee51003}"
+author: keymoon
+host: party.ctf.zer0pts.com
+port: 8007
+tags:
+  - web
+is_survey: false

@@ -1,0 +1,12 @@
+---
+name: miniblog++
+description: >
+  <p>Backup is important!</p>
+  <p><a href="http://{host}:{port}" target="_blank">Challenge</a></p>
+flag: "zer0pts{You_obtained_a_Bachelor_of_ZIP}"
+author: ptr-yudai
+host: miniblog.ctf.zer0pts.com
+port: 8008
+tags:
+  - web
+is_survey: false

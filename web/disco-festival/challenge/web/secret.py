@@ -1,0 +1,3 @@
+FLAG = "zer0pts{st4y_tun3d_f0r_th3_d1sc0_m4squr4d3!(n0t_r3a11y)}"
+APP_KEY = "be24f81724e3a5a23e46356b476cba0007322c555e07071a8e8fd36194127ae8"
+RECAPTCHA_SECRET = ""

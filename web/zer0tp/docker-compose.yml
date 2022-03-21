@@ -1,0 +1,33 @@
+version: '3'
+services:
+  zer0tp:
+    build: ./distfiles/service
+    container_name: zer0tp
+    ports:
+      - "8080:8080"
+    environment:
+      - REDIS_HOST=redis
+      - UWSGI_INI=/app/uwsgi.ini
+      - LISTEN_PORT=8080
+    restart: always
+    links:
+      - redis
+  demo:
+    build: ./distfiles/demo
+    container_name: demo
+    ports:
+      - "8077:8080"
+    environment:
+      - HOST=zer0tp.ctf.zer0pts.com
+      - ZER0TP_HOST=zer0tp
+      - ZER0TP_PORT=8080
+      - UWSGI_INI=/app/uwsgi.ini
+      - LISTEN_PORT=8080
+      - FLAG=zer0pts{U_s4v3d_1337_USD_:yay:}
+    restart: always
+    links:
+      - redis
+      - zer0tp
+  redis:
+    build: ./distfiles/redis
+    restart: always
