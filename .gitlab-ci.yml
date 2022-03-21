@@ -1,6 +1,8 @@
 image: node:16
 
 pages:
+  script:
+    - "true"
   artifacts:
     paths:
       - public
